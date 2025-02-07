@@ -35,30 +35,6 @@ Products tests are located in test/products/.
 Carts tests are located in test/carts/.
 Users tests are located in test/users/.
 After writing the tests, you can run them as described below.
-
-Folder Structure
-Here is an overview of the folder structure for the project:
-
-bash
-Copy
-Edit
-project-root
-├── package.json            # Project dependencies and scripts
-├── node_modules/           # Project dependencies
-├── test
-│   ├── products
-│   │   ├── getAllProducts.js
-│   │   └── getSingleProduct.js
-│   ├── carts
-│   │   └── getAllCarts.js
-│   ├── users
-│   │   └── loginUser.js
-└── README.md               # Project documentation
-Breakdown of Files:
-package.json: Contains the project’s dependencies and configurations.
-node_modules/: Folder containing installed node modules.
-test/: Folder containing all test scripts, organized by feature:
-products/: Contains test cases for product-related APIs.
 carts/: Contains test cases for cart-related APIs.
 users/: Contains test cases for user-related APIs.
 README.md: Project documentation file (this file).
