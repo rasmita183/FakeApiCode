@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "hello.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "zest run"
   },
   "keywords": [],
   "author": "",
@@ -11,7 +11,9 @@
   "description": "",
   "devDependencies": {
     "axios": "^1.7.9",
+    "expect": "^29.7.0",
     "jest": "^29.7.0",
-    "newman": "^6.2.1"
+    "newman": "^6.2.1",
+    "zest": "^0.1.3"
   }
 }
