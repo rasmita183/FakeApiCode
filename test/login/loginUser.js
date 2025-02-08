@@ -1,5 +1,5 @@
 const zest = require('zest');
-
+// Test - Valid Login
 zest.describe("User Login", function () {
     zest.it("Valid Login: Login with correct username and password", async function () {
         const response = await zest.post('https://fakestoreapi.com/auth/login', {
@@ -9,7 +9,7 @@ zest.describe("User Login", function () {
         zest.expect(response.status).toBe(200);
         zest.expect(response.body).toHaveProperty('token');
     });
-
+    // Test - Invalid Login
     zest.it("Invalid Login: Incorrect username or password", async function () {
         const response = await zest.post('https://fakestoreapi.com/auth/login', {
             username: "invalidUsername",
