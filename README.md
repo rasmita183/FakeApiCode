@@ -1,4 +1,4 @@
-Project Name: API Test Automation with Zest
+Project Name: API Test Automation with Zest Fake store API
 Description
 This project is designed to automate API tests for various endpoints using Zest, a JavaScript-based testing framework. It focuses on testing product, cart, and user APIs, verifying functionality, performance, and edge cases.
 
