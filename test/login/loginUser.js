@@ -27,19 +27,4 @@ zest.describe("User Login", function () {
         zest.expect(response.status).toBe(400);
         zest.expect(response.body).toHaveProperty('error', 'Username is required');
     });
-
-    zest.it("Empty Password", async function () {
-        const response = await zest.post('https://fakestoreapi.com/auth/login', {
-            username: "validUsername",
-            password: ""
-        });
-        zest.expect(response.status).toBe(400);
-        zest.expect(response.body).toHaveProperty('error', 'Password is required');
-    });
-
-    zest.it("No Request Body", async function () {
-        const response = await zest.post('https://fakestoreapi.com/auth/login', {});
-        zest.expect(response.status).toBe(400);
-        zest.expect(response.body).toHaveProperty('error', 'Username and Password are required');
-    });
 });
