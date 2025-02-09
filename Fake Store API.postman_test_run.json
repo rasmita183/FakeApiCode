@@ -1,0 +1,656 @@
+{
+	"id": "5a9b704a-4775-4284-8a8b-ed9bd92bc366",
+	"name": "Fake Store API",
+	"timestamp": "2025-02-07T19:36:05.110Z",
+	"collection_id": "0-a8c20e82-f5ae-449f-bf4f-6e336525e9e8",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "17fb3d2e-9965-4acc-aa88-894ca7a8ecaf",
+			"name": "Get All Products",
+			"url": "https://fakestoreapi.com/products",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				71
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d56f955f-75ae-4a0f-8f41-00f39745e8e8",
+			"name": "Get Single Product",
+			"url": "https://fakestoreapi.com/products/1",
+			"time": 60,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				60
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7eb1ee4d-d9c9-47dc-9632-e433f4c3ca67",
+			"name": "Get invalid product",
+			"url": "https://fakestoreapi.com/products/1",
+			"time": 55,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				55
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "47cb9ad8-f851-4ba7-9fff-661dc7a0474a",
+			"name": "Add New Product",
+			"url": "https://fakestoreapi.com/products",
+			"time": 56,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				56
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1363ba55-b4dc-41a8-9456-fa86c1a1201f",
+			"name": "Add New Product invalid",
+			"url": "https://fakestoreapi.com/products/99999",
+			"time": 51,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				51
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d1950319-2298-4970-bfdc-d976501aa0bc",
+			"name": "Add New Product invalid alpha",
+			"url": "https://fakestoreapi.com/products",
+			"time": 57,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				57
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b8a2a3f2-1998-4565-87ac-12835c1da6b0",
+			"name": "Update Product",
+			"url": "https://fakestoreapi.com/products/7",
+			"time": 55,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				55
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cc1f6ceb-fae8-4611-8d80-12c181a87d5f",
+			"name": "Update Product invalid",
+			"url": "https://fakestoreapi.com/products/abc",
+			"time": 55,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				55
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3eb789c9-8538-414b-a476-1643f70d6849",
+			"name": "Update Product Alpha",
+			"url": "https://fakestoreapi.com/products/abc67",
+			"time": 56,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				56
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "58944c0b-a071-47c7-aea6-1de91fcdabe3",
+			"name": "Delete Product",
+			"url": "https://fakestoreapi.com/products/6",
+			"time": 156,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				156
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "daa9ae80-3660-4993-a2fd-4210a05a672f",
+			"name": "Delete Product invalid",
+			"url": "https://fakestoreapi.com/products/94885abc",
+			"time": 56,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				56
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6e5770ed-8c29-4730-a101-151db3c105eb",
+			"name": "Get All Carts",
+			"url": "https://fakestoreapi.com/carts",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				151
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a54bb93d-9d3b-4fec-adb4-f289227abb63",
+			"name": "Get Single cart",
+			"url": "https://fakestoreapi.com/carts",
+			"time": 164,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				164
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bc742079-651b-449f-97b6-aee968fbf57e",
+			"name": "Get Non existing cart",
+			"url": "https://fakestoreapi.com/carts/1bc",
+			"time": 55,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				55
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6112a2de-3c8b-42a7-ac2d-f1b50e58b692",
+			"name": "Add New Cart",
+			"url": "https://fakestoreapi.com/carts",
+			"time": 57,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				57
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2db20087-c18f-4935-b7d4-ee64f65f77db",
+			"name": "Add New Cart Missing",
+			"url": "https://fakestoreapi.com/carts/1000000000",
+			"time": 70,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				70
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1ad202a8-f1ff-4b53-895a-106d3c942b28",
+			"name": "Add New Cart invalid data",
+			"url": "https://fakestoreapi.com/carts/1bb",
+			"time": 56,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				56
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "926f989e-0ad6-435c-93d4-9754541e7ac1",
+			"name": "Get All Users",
+			"url": "https://fakestoreapi.com/users",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				145
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e3a28bbf-aa43-45df-a2fe-71253234a560",
+			"name": "Get Single User",
+			"url": "https://fakestoreapi.com/users/1",
+			"time": 155,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				155
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9c8928c6-20eb-4c8e-8988-ea4e3c2297dc",
+			"name": "Get Single User Invalid",
+			"url": "https://fakestoreapi.com/users/1",
+			"time": 152,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				152
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "da23a979-a979-4055-abf2-50c890d8402c",
+			"name": "Add New User",
+			"url": "https://fakestoreapi.com/users",
+			"time": 155,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				155
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e2746a16-6c1a-4a50-a487-27a4cd5f0a5a",
+			"name": "Login",
+			"url": "https://fakestoreapi.com/auth/login",
+			"time": 154,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				154
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1e05658f-88f5-4a9d-a2f4-993261b9380f",
+			"name": "Login Invalid",
+			"url": "https://fakestoreapi.com/auth/login",
+			"time": 155,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				155
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0d23680a-0ab4-484d-b490-0a8ed443e194",
+			"name": "Login Invalid Copy",
+			"url": "https://fakestoreapi.com/auth/login",
+			"time": 164,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				164
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8dab2d69-236c-44d5-8281-ba29d66610c9",
+			"name": "Login Invalid Copy 2",
+			"url": "https://fakestoreapi.com/auth/login",
+			"time": 155,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				155
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4a476cbf-ce17-4c89-9ff0-75f37bde0a3c",
+			"name": "Login Invalid Copy 3",
+			"url": "https://fakestoreapi.com/auth/login",
+			"time": 55,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				55
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "10f01a6a-85b4-42cb-9cfc-0813b1fc7a02",
+			"name": "Login Invalid Copy 4",
+			"url": "https://fakestoreapi.com/auth/login",
+			"time": 53,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				53
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f9e4f022-3686-40d8-85a3-2d884838c473",
+			"name": "Login Invalid Copy 5",
+			"url": "https://fakestoreapi.com/auth/login",
+			"time": 56,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				56
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "83df5e94-5c93-4eba-9488-41865083f29a",
+			"name": "Login Invalid Copy 6",
+			"url": "https://fakestoreapi.com/auth/login",
+			"time": 152,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				152
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2832,
+	"collection": {
+		"requests": [
+			{
+				"id": "17fb3d2e-9965-4acc-aa88-894ca7a8ecaf",
+				"method": "GET"
+			},
+			{
+				"id": "d56f955f-75ae-4a0f-8f41-00f39745e8e8",
+				"method": "GET"
+			},
+			{
+				"id": "7eb1ee4d-d9c9-47dc-9632-e433f4c3ca67",
+				"method": "GET"
+			},
+			{
+				"id": "47cb9ad8-f851-4ba7-9fff-661dc7a0474a",
+				"method": "POST"
+			},
+			{
+				"id": "1363ba55-b4dc-41a8-9456-fa86c1a1201f",
+				"method": "POST"
+			},
+			{
+				"id": "d1950319-2298-4970-bfdc-d976501aa0bc",
+				"method": "POST"
+			},
+			{
+				"id": "b8a2a3f2-1998-4565-87ac-12835c1da6b0",
+				"method": "PUT"
+			},
+			{
+				"id": "cc1f6ceb-fae8-4611-8d80-12c181a87d5f",
+				"method": "PUT"
+			},
+			{
+				"id": "3eb789c9-8538-414b-a476-1643f70d6849",
+				"method": "PUT"
+			},
+			{
+				"id": "58944c0b-a071-47c7-aea6-1de91fcdabe3",
+				"method": "DELETE"
+			},
+			{
+				"id": "daa9ae80-3660-4993-a2fd-4210a05a672f",
+				"method": "DELETE"
+			},
+			{
+				"id": "6e5770ed-8c29-4730-a101-151db3c105eb",
+				"method": "GET"
+			},
+			{
+				"id": "a54bb93d-9d3b-4fec-adb4-f289227abb63",
+				"method": "GET"
+			},
+			{
+				"id": "bc742079-651b-449f-97b6-aee968fbf57e",
+				"method": "GET"
+			},
+			{
+				"id": "6112a2de-3c8b-42a7-ac2d-f1b50e58b692",
+				"method": "POST"
+			},
+			{
+				"id": "2db20087-c18f-4935-b7d4-ee64f65f77db",
+				"method": "POST"
+			},
+			{
+				"id": "1ad202a8-f1ff-4b53-895a-106d3c942b28",
+				"method": "POST"
+			},
+			{
+				"id": "926f989e-0ad6-435c-93d4-9754541e7ac1",
+				"method": "GET"
+			},
+			{
+				"id": "e3a28bbf-aa43-45df-a2fe-71253234a560",
+				"method": "GET"
+			},
+			{
+				"id": "9c8928c6-20eb-4c8e-8988-ea4e3c2297dc",
+				"method": "GET"
+			},
+			{
+				"id": "da23a979-a979-4055-abf2-50c890d8402c",
+				"method": "POST"
+			},
+			{
+				"id": "e2746a16-6c1a-4a50-a487-27a4cd5f0a5a",
+				"method": "POST"
+			},
+			{
+				"id": "1e05658f-88f5-4a9d-a2f4-993261b9380f",
+				"method": "POST"
+			},
+			{
+				"id": "0d23680a-0ab4-484d-b490-0a8ed443e194",
+				"method": "POST"
+			},
+			{
+				"id": "8dab2d69-236c-44d5-8281-ba29d66610c9",
+				"method": "POST"
+			},
+			{
+				"id": "4a476cbf-ce17-4c89-9ff0-75f37bde0a3c",
+				"method": "POST"
+			},
+			{
+				"id": "10f01a6a-85b4-42cb-9cfc-0813b1fc7a02",
+				"method": "POST"
+			},
+			{
+				"id": "f9e4f022-3686-40d8-85a3-2d884838c473",
+				"method": "POST"
+			},
+			{
+				"id": "83df5e94-5c93-4eba-9488-41865083f29a",
+				"method": "POST"
+			}
+		]
+	}
+}
