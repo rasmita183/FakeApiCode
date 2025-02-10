@@ -18,7 +18,7 @@ zest.describe("User Login", function () {
         zest.expect(response.status).toBe(401);
         zest.expect(response.body).toHaveProperty('error', 'Invalid credentials');
     });
-
+    // Test - Invalid Login
     zest.it("Empty Username", async function () {
         const response = await zest.post('https://fakestoreapi.com/auth/login', {
             username: "",
