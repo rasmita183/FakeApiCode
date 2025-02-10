@@ -39,9 +39,9 @@ bash
 Copy
 Edit
 /test
-  ├── cart/  # Contains test cases for product-related APIs
-  ├── login/     # Contains test cases for cart-related APIs
-  ├── products/     # Contains test cases for user-related APIs
+  ├── cart/  # Contains test cases for cart -related APIs
+  ├── login/     # Contains test cases for login-related APIs
+  ├── products/     # Contains test cases for products-related APIs
 README.md        # Project documentation
 Test Cases
 Each test case is written in a separate JavaScript file, ensuring APIs function correctly under different scenarios, including:
